@@ -28,5 +28,22 @@ AWD                0.08565668    -0.03698098   -0.09120266  1.00000000 -0.141669
 mpg                0.60947984     0.09068314   -0.02083999 -0.14166977  1.00000000
 vehicle length is the dominant parameter and we could obtain the linear regression relationship
 mpg = -25.062+4.673*vehicle length
+See Figure 1 for demonstration.
+
+2. Suspension Coil Summary
+1)summary statistics table for the suspension coil's pounds-per-inch continuous variable.
+Mean = 1499
+Median = 1500
+Variance = 62.29
+Standard deviation = 7.89
+
+2)The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per inch. Does the current manufacturing data meet this design specification? Why or why not?
+Yes, the variance is ~62 < 100.
+
+3)Assuming our significance level was the common 0.05 percent, our p-value 0.06028 is above our significance level. Therefore, we do not have sufficient evidence to reject the null hypothesis, and we would state that the two means are statistically similar.
+
+
+
+
 
 
