@@ -25,3 +25,9 @@ var(suspension_coiltest$PSI)
 t.test(suspension_coiltest$PSI,mu=1500) #compare sample versus population means
 
 ## More Analysis
+MPG_matrix2 <- as.matrix(MPG_Regression[,c("vehicle length","vehicle weight","spoiler angle","ground clearance", "AWD","mpg")])
+cor(MPG_matrix2)
+
+
+
+
